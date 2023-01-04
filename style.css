@@ -308,8 +308,9 @@ nav {
     padding-bottom: 120px;
   }
   .bg_quotes {
-    top: 2320px;
-    left: 30px;
+    /* top: 2320px;
+    left: 30px; */
+    display: none;
   }
   .footer_floater {
     max-width: 340px;
