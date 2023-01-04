@@ -269,7 +269,7 @@ footer{
     max-width: 350px;
     margin: auto;
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.4;
   }
   .header_text p {
@@ -278,6 +278,7 @@ footer{
   /* MAIN BODY STYLING */
   main {
     margin-top: 220px;
+    background-color: 	hsl(217, 27%, 13%);
   }
   .main_body {
     grid-template-columns: repeat(1, 1fr);
