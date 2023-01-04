@@ -86,6 +86,7 @@ nav {
   text-align: center;
   gap: 50px;
   padding-bottom: 30px;
+  
 }
 .main_body_text h2 {
   color: white;
@@ -211,12 +212,18 @@ nav {
   border-radius: 20px;
   color: white;
 }
+.footerleft {
+  width: 30%;
+}
 .footer_margin {
   display: flex;
   max-width: 1000px;
   margin: auto;
   gap: 70px;
   padding-top: 200px;
+}
+footer{
+  
 }
 /* Media Query for small screen size */
 @media (min-width: 350px) and (max-width: 500px) {
@@ -318,6 +325,7 @@ nav {
     left: 0%;
     right: 0%;
     width: 100%;
+    top: -120px;
     /* border: 2px solid red; */
     box-shadow: 1px 0px 3px 1px;
   }
@@ -328,6 +336,18 @@ nav {
     flex-direction: column;
   }
   .input_button button{
-    padding: 12px 76px;
+    padding: 12px 66px;
+    margin-top: 8px;
+  }
+  .footer_margin{
+    padding-top: 250px;
+    flex-direction: column;
+    max-width: 340px;
+    margin: auto;
+    padding-bottom: 40px;
+    gap: 55px;
+  }
+  .footerleft {
+    width: 100%;
   }
 }
