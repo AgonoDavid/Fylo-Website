@@ -87,7 +87,6 @@ nav {
   text-align: center;
   gap: 50px;
   padding-bottom: 30px;
-  
 }
 .main_body_text h2 {
   color: white;
@@ -145,7 +144,6 @@ nav {
   margin: auto;
   margin-top: 150px;
   padding-bottom: 200px;
-
 }
 .fourth_box p {
   font-size: 0.8rem;
@@ -225,13 +223,11 @@ nav {
   padding-top: 200px;
   padding-bottom: 50px;
 }
-footer{
-  
-}
+
 /* Media Query for small screen size */
 @media (min-width: 350px) and (max-width: 500px) {
   /* NAV AND HEADER STYLING */
- 
+
   nav {
     max-width: 342px;
     margin: auto;
@@ -282,14 +278,13 @@ footer{
   /* MAIN BODY STYLING */
   main {
     margin-top: 220px;
-    background-color: 	hsl(217, 27%, 13%);
+    background-color: hsl(217, 27%, 13%);
   }
   .main_body {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 340px;
     max-width: 320px;
     margin: auto;
-    
   }
   .main_body_text img {
     width: 24%;
@@ -321,8 +316,6 @@ footer{
     padding-bottom: 120px;
   }
   .bg_quotes {
-    /* top: 2320px;
-    left: 30px; */
     display: none;
   }
   .footer_floater {
@@ -331,7 +324,7 @@ footer{
     left: 0%;
     right: 0%;
     width: 100%;
-   
+
     /* border: 2px solid red; */
     box-shadow: 1px 0px 3px 1px;
   }
@@ -341,11 +334,11 @@ footer{
   .input_details {
     flex-direction: column;
   }
-  .input_button button{
+  .input_button button {
     padding: 12px 66px;
     margin-top: 8px;
   }
-  .footer_margin{
+  .footer_margin {
     padding-top: 250px;
     flex-direction: column;
     max-width: 340px;
